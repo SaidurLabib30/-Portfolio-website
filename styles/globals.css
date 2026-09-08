@@ -158,13 +158,13 @@
   section:last-of-type{border-bottom:none;}
 
   .panel{
-    display:none;
-    opacity:0;
-    transform:translateY(14px);
+    display:block;
+    opacity:1;
+    transform:none;
   }
   .panel.active{
     display:block;
-    animation:panelIn .45s ease forwards;
+    animation:none;
   }
   @keyframes panelIn{
     from{opacity:0; transform:translateY(14px);}
@@ -208,10 +208,12 @@
   .hero-terminal .line{white-space:pre-wrap;}
   .hero-terminal .prompt{color:var(--accent-dim);}
   .hero-name{
-    font-size:clamp(32px,5vw,52px);
+    font-size:clamp(30px,4vw,48px);
     color:var(--text);
     margin:14px 0 6px 0;
-    line-height:1.1;
+    line-height:1.05;
+    letter-spacing:-0.06em;
+    white-space:nowrap;
   }
   .hero-role{
     font-family:'JetBrains Mono',monospace;
@@ -238,9 +240,10 @@
 
   .hero-links{
     display:flex;
-    gap:14px;
+    gap:12px;
     margin-top:28px;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
+    width:100%;
   }
   .hero-links a{
     font-family:'JetBrains Mono',monospace;
@@ -251,6 +254,8 @@
     padding:9px 16px;
     border-radius:var(--radius);
     background:var(--bg-panel);
+    flex:1 1 0;
+    text-align:center;
     transition:border-color .15s ease, color .15s ease;
   }
   .hero-links a:hover{border-color:var(--accent); color:var(--accent); transform:translateY(-2px); box-shadow:0 8px 18px rgba(95,191,169,0.15);}
@@ -259,10 +264,13 @@
   .photo-frame{
     border:1px solid var(--border);
     background:var(--bg-panel);
-    border-radius:14px;
+    border-radius:50%;
     padding:10px;
     box-shadow:var(--shadow);
     transition:transform .3s ease, box-shadow .3s ease;
+    overflow:hidden;
+    width:min(100%, 360px);
+    margin:0 auto;
   }
   .photo-frame:hover{
     transform:translateY(-4px);
@@ -274,7 +282,10 @@
   .photo-frame img{
     display:block;
     width:100%;
-    border-radius:6px;
+    border-radius:50%;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    transform:scale(1.08);
     filter:grayscale(12%) contrast(1.02);
   }
 
@@ -569,7 +580,7 @@
     .hero-terminal{order:2;}
     .photo-frame{order:1; max-width:200px; margin:0 auto; border-radius:50%; overflow:hidden;}
     .photo-frame img{border-radius:50%; aspect-ratio:1/1; object-fit:cover; margin:0 auto;}
-    .hero-name{font-size:26px !important;}
+    .hero-name{font-size:26px !important; white-space:normal; letter-spacing:-0.04em;}
     .hero-role{font-size:14px !important;}
     .project-grid{grid-template-columns:1fr;}
     .skills-grid{grid-template-columns:1fr;}

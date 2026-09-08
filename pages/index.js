@@ -41,11 +41,6 @@ export default function Home() {
       <div className="topbar">
         <div className="topbar-inner">
           <div className="topbar-path">
-            <span className="window-dots">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
             <span className="path-text">labib@portfolio:~</span>
           </div>
           <nav
@@ -68,12 +63,6 @@ export default function Home() {
                 {s}
               </button>
             ))}
-            <a
-              href="mailto:saidurrahmanlabib035@gmail.com"
-              className="nav-pill hire-pill"
-            >
-              hire me
-            </a>
           </nav>
         </div>
       </div>
@@ -86,18 +75,13 @@ export default function Home() {
                 <span className="prompt">$</span> whoami
               </div>
             </div>
-            <h1 className="hero-name">
-              Saidur Rahman
-              <br />
-              Labib
-            </h1>
+            <h1 className="hero-name">Saidur Rahman Labib</h1>
             <div className="hero-role">Full-Stack Developer</div>
             <p className="hero-summary">
               CSE student who enjoys building efficient, user-friendly
               applications and working in collaborative teams. Currently
               sharpening frontend and backend skills on real production
               code, with a growing focus on quality and testing.
-              <span className="cursor"></span>
             </p>
             <div className="hero-links">
               <a href="mailto:saidurrahmanlabib035@gmail.com">Email</a>
