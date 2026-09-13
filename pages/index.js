@@ -266,6 +266,31 @@ export default function Home() {
               </a>
             </div>
             <div className="project-card">
+              <h3>E-com TEYRO</h3>
+              <div className="project-role">Modern E-Commerce Platform</div>
+              <div className="stack-row">
+                <span className="stack-pill">Next.js</span>
+                <span className="stack-pill">React</span>
+                <span className="stack-pill">TypeScript</span>
+                <span className="stack-pill">Tailwind</span>
+                <span className="stack-pill">localStorage</span>
+              </div>
+              <ul>
+                <li>Product browsing with category and size selection</li>
+                <li>Customer order flow without login requirement</li>
+                <li>Admin dashboard for managing products, categories, and orders</li>
+                <li>Responsive storefront with persistent client-side data</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/SaidurLabib30/E-com-TEYRO-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub <span aria-hidden="true">-&gt;</span>
+              </a>
+            </div>
+            <div className="project-card">
               <h3>Portal Management System</h3>
               <div className="project-role">
                 Role: Teacher Module Development
