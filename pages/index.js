@@ -276,10 +276,10 @@ export default function Home() {
                 <span className="stack-pill">localStorage</span>
               </div>
               <ul>
-                <li>Product browsing with category and size selection</li>
-                <li>Customer order flow without login requirement</li>
-                <li>Admin dashboard for managing products, categories, and orders</li>
-                <li>Responsive storefront with persistent client-side data</li>
+                <li>Product browsing with category filters, images, sizes, and quantities</li>
+                <li>Discount management and guest checkout without login</li>
+                <li>Admin tools for products, images, categories, sizes, quantities, and order statuses</li>
+                <li>localStorage persistence for product and order data</li>
               </ul>
               <a
                 className="project-link"
