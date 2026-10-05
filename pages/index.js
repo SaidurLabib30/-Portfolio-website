@@ -176,6 +176,7 @@ export default function Home() {
               <div className="skill-chips">
                 <span className="chip">MySQL</span>
                 <span className="chip">pgAdmin</span>
+                <span className="chip">Supabase</span>
               </div>
             </div>
             <div className="skill-card amber">
@@ -266,6 +267,33 @@ export default function Home() {
               </a>
             </div>
             <div className="project-card">
+              <h3>Leave Management System</h3>
+              <div className="project-role">
+                Full-stack employee leave and attendance platform
+              </div>
+              <div className="stack-row">
+                <span className="stack-pill">Next.js</span>
+                <span className="stack-pill">React</span>
+                <span className="stack-pill">TypeScript</span>
+                <span className="stack-pill">Tailwind CSS</span>
+                <span className="stack-pill">Supabase</span>
+              </div>
+              <ul>
+                <li>Manage employees, attendance, and shift schedules</li>
+                <li>Submit and track employee leave requests</li>
+                <li>Role-based access for Admins, Managers, and Employees</li>
+                <li>Leave approval workflows for managers and admins</li>
+              </ul>
+              <a
+                className="project-link"
+                href="https://github.com/SaidurLabib30/Leave-system-"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View on GitHub <span aria-hidden="true">-&gt;</span>
+              </a>
+            </div>
+            <div className="project-card">
               <h3>E-com TEYRO</h3>
               <div className="project-role">Modern E-Commerce Platform</div>
               <div className="stack-row">
@@ -273,13 +301,13 @@ export default function Home() {
                 <span className="stack-pill">React</span>
                 <span className="stack-pill">TypeScript</span>
                 <span className="stack-pill">Tailwind</span>
-                <span className="stack-pill">localStorage</span>
+                <span className="stack-pill">Supabase</span>
               </div>
               <ul>
                 <li>Product browsing with category filters, images, sizes, and quantities</li>
                 <li>Discount management and guest checkout without login</li>
                 <li>Admin tools for products, images, categories, sizes, quantities, and order statuses</li>
-                <li>localStorage persistence for product and order data</li>
+                <li>Supabase backend for product and order data</li>
               </ul>
               <a
                 className="project-link"
