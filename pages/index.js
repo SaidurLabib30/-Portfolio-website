@@ -365,7 +365,7 @@ export default function Home() {
               </ul>
               <a
                 className="project-link"
-                href="https://github.com/SaidurLabib30/Restaurant-Management"
+                href="https://github.com/SaidurLabib30/Restaurant-Management-main"
                 target="_blank"
                 rel="noopener noreferrer"
               >
