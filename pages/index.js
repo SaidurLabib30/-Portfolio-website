@@ -339,15 +339,29 @@ export default function Home() {
             </div>
             <div className="project-card">
               <h3>Restaurant Management System</h3>
+              <div className="project-role">
+                Full-stack restaurant operations platform
+              </div>
               <div className="stack-row">
-                <span className="stack-pill">HTML</span>
-                <span className="stack-pill">CSS</span>
-                <span className="stack-pill">JavaScript</span>
+                <span className="stack-pill">Next.js 14</span>
+                <span className="stack-pill">React</span>
+                <span className="stack-pill">TypeScript</span>
+                <span className="stack-pill">Tailwind CSS</span>
+                <span className="stack-pill">Supabase</span>
               </div>
               <ul>
-                <li>Interactive restaurant management interface</li>
-                <li>Responsive layouts for desktop and mobile screens</li>
-                <li>JavaScript-powered interactions and user workflows</li>
+                <li>
+                  Role-based authentication for Admin, Manager, Waiter, and
+                  Kitchen roles
+                </li>
+                <li>
+                  Dashboard analytics, table management, and order/kitchen
+                  display
+                </li>
+                <li>Menu management, inventory tracking, and sales reports</li>
+                <li>
+                  Supabase PostgreSQL schema, API routes, and RLS policies
+                </li>
               </ul>
               <a
                 className="project-link"
