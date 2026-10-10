@@ -245,21 +245,37 @@ export default function Home() {
           <div className="project-grid">
             <div className="project-card">
               <h3>Property Rental &amp; Management System</h3>
+              <div className="project-role">
+                Role-based rental platform for owners, tenants, agents, and
+                admins
+              </div>
               <div className="stack-row">
                 <span className="stack-pill">Next.js</span>
                 <span className="stack-pill">React</span>
-                <span className="stack-pill">CSS</span>
-                <span className="stack-pill">Axios</span>
+                <span className="stack-pill">TypeScript</span>
+                <span className="stack-pill">Tailwind CSS</span>
+                <span className="stack-pill">shadcn/ui</span>
               </div>
               <ul>
-                <li>Owner registration and login authentication</li>
-                <li>Property listing with dynamic details pages</li>
-                <li>Reusable components and a responsive UI</li>
-                <li>RESTful API integration, deployed on Vercel</li>
+                <li>
+                  Role-based dashboards for Owners, Tenants, Agents, and Admins
+                </li>
+                <li>
+                  Browse, search, and filter listings with detailed property
+                  pages
+                </li>
+                <li>
+                  Property details: images, price (৳), location, type, status,
+                  size, and amenities
+                </li>
+                <li>
+                  Dynamic property carousel, consistent cards, and a fully
+                  responsive UI
+                </li>
               </ul>
               <a
                 className="project-link"
-                href="https://github.com/raihanafsan/ADVWEBTECH"
+                href="https://github.com/SaidurLabib30/Property-Rental-Management-System"
                 target="_blank"
                 rel="noopener noreferrer"
               >
